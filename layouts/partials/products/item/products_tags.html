@@ -1,0 +1,5 @@
+{{ with .GetTerms "products_tags" }}
+  {{ range . }}
+    <p class="products_tags">{{ partial "func/PrepareHTML" .Title }}</p>
+  {{ end }}
+{{ end }}

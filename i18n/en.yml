@@ -1,0 +1,8 @@
+products_tags:
+  all: All products tags
+  discover: Discover tag
+  latest: Latest products tags
+  more: Discover more products tags
+  title:
+    one: Tag
+    other: Tags

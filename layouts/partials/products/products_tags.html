@@ -1,0 +1,10 @@
+{{ with .GetTerms "products_tags" }}
+  <div class="list list-products_tags">
+    <p>{{ i18n "products_tags.title" (. | len) }}</p>
+    <ul>
+      {{ range . }}
+        <li><a href="{{ .Permalink }}">{{ partial "func/PrepareHTML" .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

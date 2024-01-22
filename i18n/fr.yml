@@ -1,0 +1,8 @@
+products_tags:
+  all: Tous les tags produits
+  discover: Découvrir le tag
+  latest: Derniers tags produits
+  more: Découvrir plus de tags produits
+  title:
+    one: Tag
+    other: Tags

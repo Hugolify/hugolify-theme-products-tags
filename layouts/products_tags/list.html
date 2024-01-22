@@ -1,0 +1,9 @@
+{{ define "hero"}}
+  {{- partial "products_tags/hero" . -}}
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "products_tags/schema" . }}
+  {{ partial "products_tags/blocks" . }}
+  {{ partial "products_tags/container" . }}
+{{ end }}
