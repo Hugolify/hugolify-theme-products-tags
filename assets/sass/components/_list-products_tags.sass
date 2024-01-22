@@ -18,15 +18,13 @@
             @extend .badge
             background-color: $secondary
             text-decoration: none
-
-section + .list-products_tags
-    border-top: 1px solid $border-color
-    margin-top: $global-spacing
-    padding-top: calc(#{$global-spacing} / 2)
-    p
-        @include font-size($h5-font-size)
-        color: $headings-color
-        font-family: $headings-font-family
-        font-weight: $headings-font-weight
-        line-height: $headings-line-height
-        margin-bottom: $headings-margin-bottom
+            
+    .content &
+        padding-top: $global-spacing
+        p
+            @include font-size($h5-font-size)
+            color: $headings-color
+            font-family: $headings-font-family
+            font-weight: $headings-font-weight
+            line-height: $headings-line-height
+            margin-bottom: $headings-margin-bottom
