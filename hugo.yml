@@ -16,3 +16,8 @@ permalinks:
   products_tags: /products/tags/:slug/
 taxonomies:
   products_tag: products_tags
+
+params:
+  admin:
+    collections:
+      products_categories: true
