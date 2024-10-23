@@ -20,4 +20,6 @@ taxonomies:
 params:
   admin:
     collections:
-      products_tags: true
+      products_tags:
+        branch: true
+        enable: true
