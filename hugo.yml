@@ -13,13 +13,16 @@ module:
 
 # Default
 permalinks:
-  products_tags: /products/tags/:slug/
+  taxonomy:
+    products_tags: /products/tags/
+  term:
+    products_tags: /products/tags/:slug/
 taxonomies:
   products_tag: products_tags
 
+# Params
 params:
   admin:
     collections:
       products_tags:
-        branch: true
         enable: true
