@@ -3,7 +3,7 @@
     <p>{{ i18n "products_tags.title" (. | len) }}</p>
     <ul>
       {{ range . }}
-        <li><a href="{{ .Permalink }}">{{ partial "func/PrepareHTML" .Title }}</a></li>
+        <li><a href="{{ .Permalink }}">{{ partial "func/PrepareHTML.html" .Title }}</a></li>
       {{ end }}
     </ul>
   </div>
