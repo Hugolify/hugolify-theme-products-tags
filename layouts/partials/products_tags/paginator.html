@@ -1,2 +1,0 @@
-{{- $abovethefold := cond (partial "func/HasImageHero.html" .) false true -}}
-{{ partial "products_tags/items" (dict "pages" .Pages.ByTitle "abovethefold" $abovethefold) }}

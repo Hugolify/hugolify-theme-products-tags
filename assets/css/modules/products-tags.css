@@ -1,0 +1,12 @@
+/* css/modules/products-tags.css: hugolify-theme-products-tags entry point */
+
+/* Tokens */
+@import '../tokens/products-tags.css';
+
+/* Components */
+@import '../components/products-tag.css';
+@import '../components/products-tags.css';
+
+/* Pages */
+@import '../pages/products-tag.css';
+@import '../pages/products-tags.css';

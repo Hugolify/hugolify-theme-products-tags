@@ -1,0 +1,11 @@
+/* components/products-tag.css */
+/*
+ * Usage: <article class="item products_tag">
+ */
+@layer components {
+  .products_tag {
+    .btn {
+      display: none;
+    }
+  }
+}
